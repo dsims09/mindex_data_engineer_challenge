@@ -37,7 +37,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m src.pipeline
-pytest
+python -m pytest
 ```
 
 The pipeline generates these local artifacts:
@@ -136,7 +136,7 @@ The test suite covers:
 Run with:
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ## Key Decisions I Expect To Discuss
