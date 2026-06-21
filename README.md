@@ -139,7 +139,7 @@ Run with:
 python -m pytest
 ```
 
-## Key Decisions I Expect To Discuss
+## Key Design Decisions
 
 - Returns are valid business events and should reduce revenue rather than be filtered out.
 - Orphaned store and product transactions are excluded from `fact_sales` because they would break trusted dimensional analytics.
